@@ -16,6 +16,7 @@ $(shell mkdir -p $(OBJS_DIR))
 #modify the variables
 
 CFLAGS += -Wall
+#CFLAGS += -Wstrict-prototypes -O2 -fomit-frame-pointer -ffreestanding
 
 export
 

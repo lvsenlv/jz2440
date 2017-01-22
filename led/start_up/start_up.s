@@ -15,5 +15,5 @@ _start:
         ldr     sp, =1024*4         @设置栈指针，sram只有
 
         bl      main                @跳转到main函数
-unconditional_branch:
-        b       unconditional_branch                @死循环
+halt_loop:
+        b       halt_loop           @死循环
