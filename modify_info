@@ -1,25 +1,18 @@
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	deleted:    led/Makefile.md
-	modified:   led/build/Makefile
-	deleted:    led/include/temp.h
-	modified:   led/src/Make.defines
-	deleted:    led/src/main.c
-	modified:   led/start_up/start_up.s
+	modified:   led/include/led.h
+	modified:   led/include/s3c2440a_gpio.h
+	modified:   led/src/led.c
 	modified:   modify_info
+	modified:   s3c2440a_gpio.h
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	led/include/led.h
-	led/include/s3c2440a.h
-	led/include/s3c2440a_gpio.h
-	led/src/led.c
-	s3c2440a.h
-	s3c2440a_gpio.h
+	key_led/
 
 no changes added to commit (use "git add" and/or "git commit -a")

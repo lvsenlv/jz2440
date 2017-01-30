@@ -7,8 +7,9 @@
 #include "led.h"
 
 void delay(volatile unsigned long count);
+int led_main(void);
 
-int main(void)
+int led_main(void)
 {
 	led_init();
 	delay(0xFFFF);
