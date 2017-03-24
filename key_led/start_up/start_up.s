@@ -12,7 +12,7 @@ _start:
         mov     r1, #0x0            
         str     r1, [r0]            @将r1寄存器中的值写入r0寄存器，写入0即可关闭看门狗
 
-        ldr     sp, =1024*4         @设置栈指针，sram只有
+        ldr     sp, =1024*4         @设置栈指针，sram只有4KiB大小
 
         bl      main                @跳转到main函数
 halt_loop:
